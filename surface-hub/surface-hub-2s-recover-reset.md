@@ -11,18 +11,18 @@ audience: Admin
 ms.topic: article
 ms.date: 12/05/2019
 ms.localizationpriority: Medium
-ms.openlocfilehash: 88f5d912f7505aecaa5bd7ba659acab2d6c4fa1a
-ms.sourcegitcommit: 25b8d880c6438f94b008f47b4fecc3aa4c473e85
+ms.openlocfilehash: 64ceee291d3d3e067f581707d9431fa92398c785
+ms.sourcegitcommit: ecb4909c091e69b7bdb1faacfc8c34b480dc884b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "11304807"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "11342974"
 ---
 # Réinitialisation et récupération pour Surface Hub 2S
 
 Si vous rencontrez des problèmes avec Surface Hub 2S, vous pouvez rétablir les paramètres d’usine ou restaurer l’appareil à l’aide d’un lecteur USB.
 
-Pour commencer, connectez-vous au Surface Hub 2S avec les informations d’identification d’administrateur, ouvrez l’application **Paramètres,** sélectionnez Mettre à jour **& sécurité,** puis sélectionnez **Récupération.**
+Pour commencer, connectez-vous au Surface Hub 2S avec les informations d’identification d’administrateur, ouvrez l’application **Paramètres,** sélectionnez Mettre à jour & **sécurité,** puis sélectionnez **Récupération.**
 
 ## Réinitialisez l’appareil
 
@@ -57,17 +57,31 @@ Nouveauté du Surface Hub 2S, vous pouvez désormais réinstaller l’appareil �
 
 1. À partir d’un PC distinct, téléchargez l’image de récupération de fichier .zip à partir du site web [Surface Recovery,](https://support.microsoft.com/surfacerecoveryimage?devicetype=surfacehub2s) puis revenir à ces instructions. 
 
-1. Dézipez le fichier téléchargé à la racine du lecteur USB.  
+1. Dans la zone de recherche de la barre **** des tâches, entrez le lecteur de **récupération,** puis sélectionnez Créer un lecteur de récupération ou un lecteur de récupération **dans** les résultats. Vous devrez peut-être entrer un mot de passe d’administrateur ou confirmer votre choix.
 
-1. Connectez le lecteur USB à n’importe quel port USB-C ou USB-A sur surface Hub 2S.
+1. Dans la **zone Contrôle de compte d’utilisateur,** sélectionnez **Oui.**
 
-1. Désactiver l’appareil :
+1. Veillez à effacer les fichiers système **de la back up dans la** case à cocher du lecteur de récupération, puis sélectionnez **Suivant**.
+
+1. Sélectionnez votre lecteur USB, puis **sélectionnez Suivant > Créer.**  Certains utilitaires doivent être copiés sur le lecteur de récupération, ce qui peut prendre quelques minutes.
+
+1. Lorsque le lecteur de récupération est prêt, sélectionnez **Terminer.**
+
+1. Double-cliquez sur le fichier .zip d’image de récupération que vous avez précédemment téléchargé pour l’ouvrir.
+
+1. Sélectionnez tous les fichiers du dossier image de récupération, copiez-les à la racine de votre lecteur USB, puis sélectionnez Choisir de remplacer les fichiers dans **la destination.**
+
+1. Une fois la copie des fichiers terminée, sélectionnez l’icône Supprimer le matériel et **éjecter** le média en toute sécurité dans la barre des tâches, puis supprimez votre lecteur USB.
+
+1. Connectez le lecteur USB à n’importe quel port USB-C ou USB-A sur le Surface Hub 2S.
+
+1. Désactiver le Hub, puis suivre les étapes suivantes pour démarrer à partir du lecteur USB :
 
    1. Tout en appuyant sur le bouton Descendre le volume, appuyez sur le bouton d’alimentation.
    1. Continuez à appuyer sur les deux boutons jusqu’à ce que le logo Windows s’affiche.
    1. Relâchez le bouton d’alimentation, mais maintenez le bouton Descendre le volume jusqu’à ce que l’interface utilisateur d’installation commence.
 
-      ![*Use Volume down and power buttons to initiate recovery*](images/sh2-keypad.png)
+      ![*Utiliser les boutons Baisser le volume et Alimentation pour lancer la récupération*](images/sh2-keypad.png)
       <br>*Figure2. Boutons Volume et Alimentation*
 
 1. Dans l’écran de sélection de la langue, sélectionnez la langue d’affichage de votre Surface Hub 2S.
