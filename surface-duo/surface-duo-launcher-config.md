@@ -25,7 +25,7 @@ ms.locfileid: "11326285"
 ---
 # Configurer Microsoft Launcher pour Surface Duo
 
-Surface Duo prend en charge Microsoft Lanceur pour entreprise, une application Android qui permet aux utilisateurs de personnaliser leur téléphone, de rester organisés en ligne et de synchroniser leurs calendriers, tâches, notes et bien plus encore entre les appareils mobiles et leurs PC. En fait, le lanceur Surface Duo est une version personnalisée à deux écrans de Microsoft Lanceur que vous pouvez ajuster pour définir les expériences préférées sur les appareils entièrement gérés pour votre organisation et permettre aux utilisateurs de personnaliser leurs expériences sur ces appareils d’entreprise. Par exemple, vous pouvez sélectionner les applications que vous souhaitez épingler à l’écran d’accueil, déployer un papier peint de marque ou masquer une barre de recherche tout en permettant aux utilisateurs d’activer la barre de recherche si vous le souhaitez.
+Surface Duo prend en charge Microsoft Lanceur pour entreprise, une application Android qui permet aux utilisateurs de personnaliser leur téléphone, de rester organisés en libre-service et de synchroniser leurs calendriers, tâches, notes et bien plus encore entre les appareils mobiles et leurs PC. En fait, le lanceur Surface Duo est une version personnalisée à deux écrans de Microsoft Lanceur que vous pouvez ajuster pour définir les expériences préférées sur les appareils entièrement gérés pour votre organisation et permettre aux utilisateurs de personnaliser leurs expériences sur ces appareils d’entreprise. Par exemple, vous pouvez sélectionner les applications que vous souhaitez épingler à l’écran d’accueil, déployer un papier peint de marque ou masquer une barre de recherche tout en permettant aux utilisateurs d’activer la barre de recherche si vous le souhaitez.
 
 ## Paramètres Lanceur Microsoft
 
@@ -40,8 +40,8 @@ Microsoft Lanceur inclut les paramètres suivants pour personnaliser l’expéri
 - Feed Enable User Change Allowed
 - Emplacement de la barre de recherche
 - Modification de l’utilisateur de placement de la barre de recherche autorisée
-- Mode station d’accueil
-- Modification de l’utilisateur en mode station d’accueil autorisée
+- Mode Station d’accueil
+- Modification utilisateur autorisée en mode station d’accueil
 
 Pour plus d’informations sur chaque paramètre, reportez-vous à [Configurer Microsoft Lanceur pour Android Entreprise avec Intune.](https://docs.microsoft.com/mem/intune/apps/configure-microsoft-launcher)
 
