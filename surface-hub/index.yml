@@ -14,21 +14,21 @@ metadata:
   author: greg-lindsay
   ms.author: greglin
   manager: laurawi
-  ms.openlocfilehash: 1e52e6d73116fe7ab84d0cb2e787995eb7ac6119
-  ms.sourcegitcommit: f8f32455b1230742c58ee74004cbaaad037069b6
+  ms.openlocfilehash: 9be85d412a96351e8cb92013eb6ca0afe9b7c304
+  ms.sourcegitcommit: 7e1b351024e33926901ddbdc562ba12aea0b4196
   ms.translationtype: HT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 02/14/2021
-  ms.locfileid: "11328188"
+  ms.lasthandoff: 03/03/2021
+  ms.locfileid: "11385132"
 landingContent:
 - title: Se préparer pour le Surface Hub 2S
   linkLists:
   - linkListType: whats-new
     links:
-    - text: Accessoires audio et vidéo certifiés Microsoft Teams pour Surface Hub 2S
-      url: surface-hub-2s-certifications.md
-    - text: Mise à jour du déploiement de Windows 10 Collaboration
-      url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/update-to-the-windows-10-team-rollout/ba-p/1669655
+    - text: 'Mise à jour de Surface Hub Windows 10 Collaboration 2020 : État de février'
+      url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-windows-10-team-2020-update-february-status/ba-p/2118369
+    - text: Mise à jour 2020 pour Surface Hub v1 disponible via Windows Update
+      url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/2020-update-for-surface-hub-v1-available-via-windows-update/ba-p/2118370
     - text: Installer et monter le Surface Hub 2S 85’’ (guide de préparation)
       url: surface-hub-2s-85-install-mount.md
     - text: Nouveautés de Windows 10 Collaboration mise à jour2020
