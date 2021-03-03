@@ -9,16 +9,16 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 02/01/2021
+ms.date: 02/18/2021
 ms.localizationpriority: Medium
-ms.openlocfilehash: 76ac960be2ab30a30b4e29618f350a13a284f52a
-ms.sourcegitcommit: 5cfac94c220c8a8d4620c6a7fa75ae2fae089c7f
+ms.openlocfilehash: 3afd4115ff4bd22a84f9a5fb86ceb6805c347f8a
+ms.sourcegitcommit: 7e1b351024e33926901ddbdc562ba12aea0b4196
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "11312020"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "11385222"
 ---
-# Créer un compte d’appareil SurfaceHub2S
+# <a name="create-surface-hub-2s-device-account"></a>Créer un compte d’appareil SurfaceHub2S
 
 La création d’un compte d’appareil Surface Hub (également appelé boîte aux lettres de salle) permet au Surface Hub 2S de recevoir, d’approuver ou de refuser des demandes de réunion et de participer à des réunions. Configurez le compte d’appareil lors de la configuration OOBE (Out-of-Box Experience). Si nécessaire, vous pouvez le modifier ultérieurement (sans passer par la configuration OOBE).
 
@@ -37,13 +37,13 @@ Vous pouvez créer le compte à partir du Centre d’administration Microsoft 36
 > [!NOTE]  
 > Le compte d’appareil Surface Hub ne prend pas en charge les fournisseurs d’identité fédérés tiers et doit être un compte Active Directory ou Azure Active Directory standard.
 
-## Créer un compte via le Centre d’administration
+## <a name="create-account-via-admin-center"></a>Créer un compte via le Centre d’administration
 
 1. Dans le Centre d’administration Microsoft **** 365, sélectionnez Ressources et choisissez Salles **& équipement,** puis **sélectionnez + Ajouter une ressource.**
 
 2. Fournissez un nom et une adresse de messagerie pour le compte d’appareil. Laissez les paramètres restants inchangés dans l’état par défaut.
 
-   ![Fournir un nom et une adresse de messagerie](images/sh2-account2.png)
+   ![Fournir un nom et une adresse e-mail](images/sh2-account2.png)
 
    ![Laisser les paramètres restants inchangés dans l’état par défaut](images/sh2-account3.png)
 
@@ -59,17 +59,17 @@ Vous pouvez créer le compte à partir du Centre d’administration Microsoft 36
 > [!NOTE]  
 > Si vous utilisez Skype Entreprise, vous devez finaliser l’installation via PowerShell - Calendrier Skype Entreprise : définir le traitement automatique du calendrier [pour](#set-calendar-auto-processing-skype-for-business-only) ce compte. 
 
-## Créer un compte via PowerShell
+## <a name="create-account-via-powershell"></a>Créer un compte via PowerShell
 
  L’utilisation de PowerShell pour automatiser rapidement des tâches sur Surface Hub ne nécessite pas nécessairement une expertise PowerShell. Assurez-vous que vous avez rempli les conditions préalables à l’installation avant d’utiliser les scripts appropriés sur cette page.
 
-### Conditions préalables à l’utilisation de PowerShell pour gérer le Surface Hub 
+### <a name="prerequisites-for-using-powershell-to-manage-surface-hub"></a>Conditions préalables à l’utilisation de PowerShell pour gérer le Surface Hub 
 
 1. Lancez PowerShell avec des privilèges de compte élevés **(exécuter**en tant qu’administrateur) et assurez-vous que votre système est configuré pour exécuter des scripts PowerShell. Pour en savoir plus, consultez la procédure [à propos des stratégies d’exécution.](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies?) 
 2. [Installez le module Azure PowerShell.](https://docs.microsoft.com/powershell/azure/install-az-ps)
 
 
-### Se connecter à Exchange Online PowerShell
+### <a name="connect-to-exchange-online-powershell"></a>Se connecter à Exchange Online PowerShell
 
 ```powershell
 Install-Module -Name ExchangeOnlineManagement
@@ -77,22 +77,22 @@ Import-Module ExchangeOnlineManagement
 Connect-ExchangeOnline -UserPrincipalName admin@contoso.com -ShowProgress $true
 ```
 
-### Créer une boîte aux lettres
+### <a name="create-mailbox"></a>Créer une boîte aux lettres
 
 ```powershell
 New-Mailbox -MicrosoftOnlineServicesID 'SurfaceHub01@contoso.com' -Alias SurfaceHub01 -Name "Surface Hub 01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String 'Pass@word1' -AsPlainText -Force)
 ```
 
-### Définir le traitement automatique du calendrier (Skype Entreprise uniquement)
+### <a name="set-calendar-auto-processing-skype-for-business-only"></a>Définir le traitement automatique du calendrier (Skype Entreprise uniquement)
 
 ```powershell
 Set-CalendarProcessing -Identity 'SurfaceHub01@contoso.com' -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
 Set-CalendarProcessing -Identity 'SurfaceHub01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Surface Hub. Please make sure this meeting is a Microsoft Teams meeting!"
 ```
 
-### Activer ActiveSync si l’utilisation de l’application de messagerie est requise
+### <a name="enable-activesync-if-use-of-email-app-is-required"></a>Activer ActiveSync si l’utilisation de l’application de messagerie est requise
 
- La stratégie ActiveSync par défaut fonctionne si elle reste inchangée. Sinon, créez Une nouvelle stratégie et affectez-la.
+ La stratégie ActiveSync par défaut fonctionne si elle reste inchangée. Sinon, créez une stratégie et affectez-la.
 
 ```powershell
 New-MobileDeviceMailboxPolicy -Name:"SurfaceHub" -PasswordEnabled:$false
@@ -100,13 +100,13 @@ New-MobileDeviceMailboxPolicy -Name:"SurfaceHub" -PasswordEnabled:$false
 Set-CASMailbox -Identity SurfaceHub01@contoso.com -ActiveSyncMailboxPolicy "SurfaceHub"
 ```
 
-### Se connecter à AzureAD
+### <a name="connect-to-azure-ad"></a>Se connecter à AzureAD
 
 ```powershell
 Connect-AzureAD
 ```
 
-### Attribuer une licence
+### <a name="assign-a-license"></a>Attribuer une licence
 
 ```powershell
 Set-AzureADUser -ObjectId 'SurfaceHub01@contoso.com' -UsageLocation US
@@ -117,7 +117,7 @@ $Licenses.AddLicenses = $License
 Set-AzureADUserLicense -ObjectId 'SurfaceHub01@contoso.com' -AssignedLicenses $Licenses
 ```
 
-### Vérifier les licences disponibles
+### <a name="check-for-available-licenses"></a>Vérifier les licences disponibles
 
 ```powershell
 Get-AzureADUser -Filter "userPrincipalName eq 'SurfaceHub01@contoso.com'" |fl *
@@ -125,7 +125,7 @@ Get-AzureADUser -Filter "userPrincipalName eq 'SurfaceHub01@contoso.com'" |fl *
 6070a4c8-34c6-4937-8dfb-39bbc6397a60
 ```
 
-## Script de vérification de compte
+## <a name="account-verification-script"></a>Script de vérification de compte
 
 Après avoir créé le compte d’appareil, vous pouvez exécuter le script de vérification suivant. Ce script valide un compte d’appareil créé précédemment et produit un rapport récapitulatif. Par exemple:
 
@@ -432,6 +432,6 @@ function Validate()
 }
 ```
 
-## Si vous souhaitez en savoir plus
+## <a name="learn-more"></a>Si vous souhaitez en savoir plus
 
 - [Créer des comptes SurfaceHub2S locaux avec PowerShell](surface-hub-2s-onprem-powershell.md)
