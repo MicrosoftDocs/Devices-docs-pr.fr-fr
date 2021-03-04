@@ -7,23 +7,23 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 07/27/2017
+ms.date: 03/03/2021
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 01454e680c674380b5f746be0a04241336fe5dbb
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: b78c6fff81642700a554655ea02aa437a025fc72
+ms.sourcegitcommit: 5c904229a0257297be7f724c264e484d2c4b5168
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10833875"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "11387415"
 ---
-# Gestion à distance du SurfaceHub
+# <a name="remote-surface-hub-management"></a>Gestion à distance du SurfaceHub
 
-## Dans cette section
+## <a name="in-this-section"></a>Dans cette section
 
-|Rubrique | Description|
+|Sujet | Description|
 | ------ | --------------- |
 | [Gérer les paramètres avec un fournisseur GPM]( https://technet.microsoft.com/itpro/surface-hub/manage-settings-with-mdm-for-surface-hub) | Le Surface Hub offre une solution de gestion d’entreprise pour aider les administrateurs informatiques à gérer des stratégies et des applications d’entreprise sur ces appareils à l’aide d’une solution de gestion des périphériques mobiles (GPM).|
-| [Surveiller le Surface Hub]( https://technet.microsoft.com/itpro/surface-hub/monitor-surface-hub) | La surveillance des appareils SurfaceHub est activée par le biais de Microsoft Operations Management Suite.|
-| [Mises à jour Windows](https://technet.microsoft.com/itpro/surface-hub/manage-windows-updates-for-surface-hub) | Vous pouvez gérer les mises à jour Windows sur votre SurfaceHub en définissant la fenêtre de maintenance, en reportant les mises à jour ou en utilisantWSUS.|
+| [Surveiller le Surface Hub](monitor-surface-hub.md) | La surveillance des appareils Surface Hub est activée via Azure Monitor.|
+| [Mises à jour Windows](manage-windows-updates-for-surface-hub.md) | Vous pouvez gérer les mises à jour Windows sur votre SurfaceHub en définissant la fenêtre de maintenance, en reportant les mises à jour ou en utilisantWSUS.|

@@ -12,24 +12,24 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 01/17/2018
 ms.localizationpriority: medium
-ms.openlocfilehash: 935f67e88af8b784230becb1cd89f7360b8a0857
-ms.sourcegitcommit: 8e809e8481023fe4421abcdaa1e055a6f2f74f5f
+ms.openlocfilehash: 5e7fca007549d8804a756ef2a042f092f0acb1c3
+ms.sourcegitcommit: 5c904229a0257297be7f724c264e484d2c4b5168
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "10924960"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "11387435"
 ---
-# Gérer le Microsoft SurfaceHub
+# <a name="manage-microsoft-surface-hub"></a>Gérer le Microsoft SurfaceHub
 
-Après l’installation initiale du Microsoft SurfaceHub, il est possible de modifier les paramètres et la configuration de l’appareil de deux façons:
+Après la configuration initiale du Microsoft Surface Hub, les paramètres et la configuration de l’appareil peuvent être modifiés de deux manières :
 
 - **Gestion locale**: chaque SurfaceHub peut être configuré localement à l’aide de l’application **Paramètres** de celui-ci. Pour empêcher les utilisateurs non autorisés de modifier les paramètres, l’application Paramètres nécessite des informations d’identification d’administrateur pour ouvrir l’application. Pour plus d’informations, voir [Gestion locale des paramètres SurfaceHub](local-management-surface-hub-settings.md).
-- **Gestion à distance** : surface Hub permet aux administrateurs informatiques de gérer les paramètres et les stratégies à l’aide d’un fournisseur de gestion des périphériques mobiles (GPM) tel que Microsoft Intune, Microsoft Endpoint Manager et d’autres fournisseurs tiers. Par ailleurs, les administrateurs peuvent surveiller les SurfaceHub à l’aide de Microsoft Operations Management Suite (OMS). Pour plus d’informations, voir [Gérer les paramètres avec un fournisseur GPM](manage-settings-with-mdm-for-surface-hub.md), et [Surveiller votre Microsoft SurfaceHub](monitor-surface-hub.md). 
+- **** Gestion à distance : le Surface Hub permet aux administrateurs informatiques de gérer les paramètres et les stratégies à l’aide d’un fournisseur de gestion des périphériques mobiles (MDM), tel que Microsoft Intune, Microsoft Endpoint Configuration Manager et d’autres fournisseurs tiers. En outre, les administrateurs peuvent surveiller les Surface Hub à l’aide d’Azure Monitor.  Pour plus d’informations, voir Gérer les [paramètres](manage-settings-with-mdm-for-surface-hub.md)avec un fournisseur de gestion des données de gestion des données et surveiller les [Surface Hub avec Azure Monitor pour suivre leur état d’santé.](https://docs.microsoft.com/azure/azure-monitor/insights/surface-hubs) 
 
 > [!NOTE]
-> Ces méthodes de gestion ne s’excluent pas mutuellement. Les appareils peuvent être gérés à la fois localement et à distance si vous le souhaitez. Toutefois, les paramètres et stratégies GPM remplacent les modifications locales lorsque le SurfaceHub se synchronise avec le serveur d’administration. 
+> Ces méthodes de gestion ne s’excluent pas mutuellement. Les appareils peuvent être gérés à la fois localement et à distance si vous le souhaitez. Toutefois, les stratégies et paramètres de gestion des stratégies de gestion des données (MDM) vont modifier les modifications locales lors de la synchronisation du Surface Hub avec le serveur de gestion. 
 
-## Dans cette section
+## <a name="in-this-section"></a>Dans cette section
 
 En savoir plus sur la gestion et la mise à jour du SurfaceHub.
 
@@ -47,9 +47,9 @@ En savoir plus sur la gestion et la mise à jour du SurfaceHub.
 | [Miracast sur le réseau local ou le réseau sans fil existant](miracast-over-infrastructure.md) | Vous pouvez utiliser Miracast sur votre réseau sans fil ou votre réseau local pour vous connecter à Surface Hub. |
  [Activer l’authentification 802.1x câblée](enable-8021x-wired-authentication.md) | Les stratégies GPM de l’authentification 802.1x câblée ont été activées sur les appareils Surface Hub. 
 | [Utilisation d’un système de contrôle d’espace](https://technet.microsoft.com/itpro/surface-hub/use-room-control-system-with-surface-hub) | Les systèmes de contrôle d’espace peuvent être utilisés avec votre Microsoft SurfaceHub.|
-[Utilisation de l’outil de récupération de SurfaceHub](surface-hub-recovery-tool.md) | Utilisez l’outil de récupération de surface Hub pour réutiliser le SSD surface Hub.
-[Remplacement du SSD de SurfaceHub](surface-hub-ssd-replacement.md) | Découvrez comment supprimer et remplacer le disque SSD dans votre surface Hub.
+[Utilisation de l’outil de récupération de SurfaceHub](surface-hub-recovery-tool.md) | Utilisez l’outil de récupération Surface Hub pour ré-imager le SSD Surface Hub.
+[Remplacement du SSD de SurfaceHub](surface-hub-ssd-replacement.md) | Découvrez comment supprimer et remplacer le lecteur SSD dans votre Surface Hub.
 
-## Rubriques associées
+## <a name="related-topics"></a>Rubriques associées
 
 - [Afficher le mode de présentation de PowerBI sur SurfaceHub et Windows10](https://powerbi.microsoft.com/documentation/powerbi-mobile-win10-app-presentation-mode/)

@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 03/01/2020
+ms.date: 03/02/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 28278827aeba20f46d5fd79b7a1de6c54bfce1e8
-ms.sourcegitcommit: 7e1b351024e33926901ddbdc562ba12aea0b4196
+ms.openlocfilehash: 1fab09ef21dbddbb2b4f292acd716c6e6cbaff7e
+ms.sourcegitcommit: 5c904229a0257297be7f724c264e484d2c4b5168
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "11385252"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "11387489"
 ---
 # <a name="install-and-mount-surface-hub-2s-85"></a>Installer et monter le Surface Hub 2S 85»
 
@@ -24,25 +24,29 @@ Cet article fournit des conseils pour l’installation physique de Microsoft Sur
 
 ## <a name="unboxing-video"></a>Vidéo d’unboxing
 
-Une vidéo complémentaire pour le déplacement et l’installation de Surface Hub 2S 85 » est désormais disponible. Avant de commencer, veuillez passer en revue le désboxing et la mise en place de [Microsoft Surface Hub 2S 85»](https://www.microsoft.com/zh-cn/videoplayer/embed/RE4MRqV).  
+- Avant de commencer, consultez la vidéo Deboxing microsoft Surface Hub 2S 85» et configurer :
+
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWwwgL]
+
+- Une version chinoise de cette vidéo est disponible dans [l’annexe B](#appendix-b-unboxing-video) ci-dessous. 
 
 ## <a name="follow-all-safety-precautions"></a>Suivre toutes les précautions de sécurité 
 
 > [!WARNING]
 > **Gestion et préparation de site**<br>
 > - L’appareil est très lourd. Pour réduire le risque de problèmes personnels, de peine ou d’endommagement de l’appareil en raison de sa taille et de son poids, il est important de maintenir l’appareil vertical.
->- Avant de déplacer l’appareil vers l’emplacement où il sera installé, son enquête sur le site pour déterminer comment le déplacer en toute sécurité vers l’emplacement où il sera décompressé et monté.
+>- Avant de déplacer l’appareil vers l’emplacement où il sera installé, enquêtez sur le site pour déterminer comment le déplacer en toute sécurité vers l’emplacement où il sera décompressé et monté.
 >- Utilisez toujours au moins deux personnes pour déballer et installer.
 >- Une fois l’appareil décompressé, il doit être monté immédiatement, afin que le système de montage soit en place avant d’être décompressé. Si vous montez sur un support de déploiement, verrouillez ou bloquez les volants de la barre avant de déballer.
 >- Pour éviter les risques de trébucher, conservez la zone d’assembly à l’endroit des matériaux de emballage.
 
 > [!IMPORTANT]
->Avant de poursuivre, examinez les informations de sécurité supplémentaires répertoriées dans [l’annexe ci-dessous.](#appendix)
+>Avant de poursuivre, examinez les informations de sécurité supplémentaires répertoriées dans [l’Annexe A](#appendix-a-additional-safety-information) ci-dessous.
 
 ## <a name="1-remove-outer-packaging-materials"></a>1. Supprimer les matériaux d’empaquetage externes
 
 1. Supprimez et recyclez la couverture externe.
-2. Couper quatre (4) lux.
+2. Couper quatre (4) lasses.
 3. Ouvrez et supprimez les six (6) clips de la fin.
 4. Supprimez le capot, puis levez et supprimez les panneaux avant et arrière.
 
@@ -56,11 +60,11 @@ Une vidéo complémentaire pour le déplacement et l’installation de Surface H
  ![Supprimer l’empaquetage externe noir](images/hub85mount2a.png) <br>
 
 > [!Caution]
-> Ne supprimez pas les matériaux blancs, à l’intérieur d’une roue ou d’empaquetage tant que le Hub 2S n’est pas adjacent au panier ou au montage du mur sur lequel il sera placé.
+> Ne supprimez pas de papier à sable, de bandes ou de matériaux d’empaquetage blancs tant que le Hub 2S n’est pas adjacent au panier ou au montage du mur sur lequel il sera placé.
 D’autres supports de réparation sont fournis dans la petite zone située sous la main de l’arrière-plan du package. Les supports de bordure d’origine ou de remplacement doivent être en place avant le déplacement et en particulier avant de faire pivoter l’appareil et son package de protection.
  
 
-## <a name="3-remove-inner-packaging-frame-from-pallet"></a>3. Supprimer le cadre de packaging interne de la palette
+## <a name="3-remove-inner-packaging-frame-from-pallet"></a>3. Supprimer le cadre d’empaquetage interne de la palette
 
 1. Déplacer l’assembly de palette vers un emplacement géographique.
 2. Volant de verrouillage (4).
@@ -86,7 +90,7 @@ D’autres supports de réparation sont fournis dans la petite zone située sous
  ![Supprimer de l’étage](images/hub85mount5a.png) <br>
 
 
-## <a name="6-place-surface-hub-85-back-on-pallet"></a>6. Remettre le Surface Hub 85» sur palette
+## <a name="6-place-surface-hub-85-back-on-pallet"></a>6. Remettre le Surface Hub 85» sur une palette
 
 1. À l’aide d’une extrémité biseauté, faites pivoter vers la palette.
 2. Déverrouiller les volants (x4).
@@ -99,12 +103,12 @@ D’autres supports de réparation sont fournis dans la petite zone située sous
 1. Placez Hub 2S devant le montage ou le panier.
 2. Volant de verrouillage (x4).
 3. Glisser l’empaquetage interne hors palette.
-4. Coupez les 3 luxiers.
+4. Coupez les 3 anses.
 5. Supprimer le capot.
 6. Supprimez les morceaux blancs.
-7. Supprimer le kit d’accueil.
+7. Supprimez le kit d’accueil.
 8. Supprimez l’élément de fin en le ôtant verticalement.
-9. Supprimez les pièces de fin de forêt par les quatre mains qui se resserrent sur la base du forêt.
+9. Supprimez les pièces de fin de forêt par les quatre poignées de main sur la base du forêt.
 
    ![Placer le Surface Hub 85» sur le montage ou le panier](images/hub85mount7a.png) <br>
 
@@ -123,7 +127,7 @@ D’autres supports de réparation sont fournis dans la petite zone située sous
 
 13. Attaches de tension élastiques élastiques (x2).
 14. Supprimer la couverture de l’ôte.
-15. Emplacements de note pour le placement des stylets (x2), de l’appareil photo et du cordon d’alimentation.
+15. Notez les emplacements de placement des stylets (x2), de l’appareil photo et du cordon d’alimentation.
 16. Attachez les stylets (x2), l’appareil photo et le cordon d’alimentation.
 17. Supprimer les étiquettes de ling (x4).
 18. Appuyez sur le bouton d’alimentation en bas à droite. L’installation est maintenant terminée.
@@ -142,7 +146,7 @@ Le Surface Hub 2S 85» utilise un modèle de montage VESA 600 x 600. Comme illus
 Si vous utilisez d’autres options de montage (non -Steelcase), vous aurez besoin d’espacements pour prendre en compte le boîtier de calcul à l’arrière de l’appareil. Des espaceurs et d’autres accessoires certifiés sont disponibles à partir de [Designs Casander.](http://www.salamandercommercial.com/surface-hub-2)
 
 
-![Détails des dimensions du Surface Hub 85 pour le montage](images/sh2-85-measure2.png) <br>
+![Détails des dimensions du Surface Hub 85» pour le montage](images/sh2-85-measure2.png) <br>
 
 ![Dimensions du Surface Hub 85» pour le montage](images/sh2-85-measure1.png) <br>
 
@@ -151,9 +155,7 @@ Si vous utilisez d’autres options de montage (non -Steelcase), vous aurez beso
 
 Le kit attaché à l’arrière-droite, en bas à droite, contient un ensemble supplémentaire de matériels de mise en bande à l’intérieur de l’empaquetage.
 
-## <a name="appendix"></a>Annexe 
-
-### <a name="additional-safety-information"></a>Informations de sécurité supplémentaires
+## <a name="appendix-a-additional-safety-information"></a>Annexe A : Informations de sécurité supplémentaires
 
 > [!WARNING]
 > **Lourde levée d’objet/d’ergonomie**<br>
@@ -182,7 +184,7 @@ Le kit attaché à l’arrière-droite, en bas à droite, contient un ensemble s
 
 > [!WARNING]
 >  **Risques invisibles dans les murs ou autres surfaces de montage** <br>
-Les murs et d’autres surfaces de montage peuvent contenir des fils électriques, des lignes de gaz et d’autres risques ou obstacles invisibles. L’opération couper ou l’exploration dans un danger invisible peut entraîner de graves problèmes personnels ou de santé.
+Les murs et d’autres surfaces de montage peuvent contenir des fils électriques, des lignes de bus et d’autres risques ou obstacles invisibles. L’opération couper ou l’exploration dans un danger invisible peut provoquer de graves problèmes personnels.
 Il incombe au programme d’installation de localiser les risques invisibles avant et d’éviter ces risques pendant l’installation. Évaluez l’environnement de montage et assurez-vous toujours qu’il n’y a aucun risque invisible dans le mur ou toute autre surface de montage avant l’exploration et/ou la coupe.
 
 > [!WARNING]
@@ -203,6 +205,14 @@ Un écran tactile déchiffré ou chéché provoqué par une mauvaise utilisation
 > [!WARNING]
 >  **Installation appropriée**<br>
 Pour éviter les risques liés à une installation incorrecte de l’appareil, l’installation doit être effectuée par des personnes qui ont lu et compris l’instruction d’installation avant de commencer le travail. Si vous n’avez pas l’équipement ou l’expertise nécessaires, ou si vous avez des doutes, la surface de montage peut correctement prendre en charge la consultation d’un programme d’installation professionnel.
+
+
+## <a name="appendix-b-unboxing-video"></a>Annexe B : Vidéo de désa réception
+
+
+### <a name="microsoft-surface-hub-2s-85-unboxing-and-set-up-video-chinese"></a>Microsoft Surface Hub 2S 85» Unboxing and Set Up video (Chinese)
+
+> [!VIDEO https://www.microsoft.com/zh-cn/videoplayer/embed/RE4MRqV]
 
 
 ## <a name="more-information"></a>Informations supplémentaires
