@@ -8,29 +8,29 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 02/08/2021
+ms.date: 03/05/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: d1eb3a6e01d28dc5b3239396c8149c97c0e6a91e
-ms.sourcegitcommit: 7029e80d9ca1a3de5c336cf662e566ed4b6b3e7a
+ms.openlocfilehash: ab18c61744375762367692c09c0e1c441cd8e287
+ms.sourcegitcommit: 6d2b7028b7c79dee64f43a7031938b5b9f6144b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "11319198"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "11393798"
 ---
-# Nouveautés de la station d’accueil Surface 
+# <a name="whats-new-in-surface-dock"></a>Nouveautés de la station d’accueil Surface 
 
 Surface Dock 2, la station d’accueil Surface de nouvelle génération, permet aux utilisateurs de connecter des moniteurs externes et plusieurs périphériques pour obtenir une expérience de bureau entièrement moderne à partir d’un appareil Surface. Conçue pour optimiser l’efficacité au bureau, dans un espace de travail flexible ou à la maison, la station d’accueil Surface 2 propose sept ports, y compris deux ports USB-C frontaux, avec 15 boîtiers de charge rapide pour téléphone et accessoires. 
 
-### Prise en charge complète de la gestion des appareils
+### <a name="full-device-management-support"></a>Prise en charge complète de la gestion des appareils
 
 Surface Dock 2 est conçu pour simplifier la gestion informatique, ce qui permet aux administrateurs d’automatiser les mises à jour de microprogramme à l’aide de Windows Update ou de centraliser les mises à jour à l’aide d’outils de distribution de logiciels internes.
 
 - Le mode SEMM (Surface Enterprise Management Mode) permet aux administrateurs informatiques de sécuriser les ports sur la station d’accueil Surface 2. Pour plus d’informations, voir Les ports de la [station d’accueil Surface 2 sécurisée avec le mode de gestion Surface Enterprise.](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/secure-surface-dock-2-ports-with-surface-enterprise-management/ba-p/1418999)
 -  La prise en charge de Windows Management Instrumentation (WMI) permet aux administrateurs informatiques de surveiller et de gérer à distance le microprogramme, l’état de stratégie et les données associées les plus récents sur les appareils Surface Dock 2. Pour plus d’informations, voir [Gérer la station d’accueil Surface 2 avec WMI.](surface-dock2-wmi.md)
 
-## Exigences générales du système
+## <a name="general-system-requirements"></a>Exigences générales du système
 
 - Windows 10 version 1809. Il n’existe aucune prise en charge pour les appareils hôtes Windows 7, Windows 8 ou autres. Surface Dock 2 fonctionne avec les appareils Surface suivants :
 
@@ -48,22 +48,21 @@ Surface Dock 2 est conçu pour simplifier la gestion informatique, ce qui permet
   - Surface Laptop Go
   - Surface Pro 7+
 
-## Composants surface dock 2
+## <a name="surface-dock-2-components"></a>Composants surface dock 2
 
 ![Composants surface dock 2](./images/surface-dock2.png)
  
-### USB
+### <a name="usb"></a>USB
 
-- Deux ports USB-C frontants.
+- Deux ports USB-C frontux.
 - Deux ports USB-C arrière (génération 2).
 - Deux ports USB-A arrière. 
 
-### Vidéo
+### <a name="video"></a>Vidéo
     
 - Double 4K@60hz. Prend en charge jusqu’à deux affichages sur les appareils suivants :
 
   - SurfaceBook3
-  - SurfaceGo2
   - SurfacePro7
   - Surface Pro 7+
   - SurfaceProX
@@ -76,20 +75,21 @@ Surface Dock 2 est conçu pour simplifier la gestion informatique, ce qui permet
   - Surface Laptop2
   - Surface Laptop (1re génération)
   - SurfaceGo
-  - Surface Book 2.
+  - SurfaceGo2
+  - SurfaceBook2
 
-### Ethernet
+### <a name="ethernet"></a>Ethernet
 
 - Port Ethernet 1 gigabit. 
 
-### Alimentation externe
+### <a name="external-power-supply"></a>Alimentation externe
 
 - 199 éditions de prise en charge de 100V-240V.
 
 
-## Comparaison de la station d’accueil Surface 
+## <a name="comparing-surface-dock"></a>Comparaison de la station d’accueil Surface 
 
-**Tableau1. Station d’accueil Surface et Hub de voyage USB-C**
+**Tableau 1. Station d’accueil Surface et Hub de voyage USB-C**
 
 
 | Composant                           | Station d’accueilSurface                                                | Station d’accueil Surface 2                                                                                      | Hub de voyage USB-C |
@@ -102,9 +102,9 @@ Surface Dock 2 est conçu pour simplifier la gestion informatique, ce qui permet
 | Ethernet                            | Oui, 1 gigabit                                              | Oui 1 gigabit                                                                                       | Oui, 1 gigabit   |
 | Alimentation DC                         | Oui                                                         | Oui                                                                                                 |                  |
 | Verrou DeNter                     | Oui                                                         | Oui                                                                                                 |                  |
-| Longueur du câble Delink               | 65cm                                                        | 80cm                                                                                                | 20cm             |
+| Longueur du câble à l’aide d’un lien de navigation               | 65cm                                                        | 80cm                                                                                                | 20cm             |
 | Puissance de l’hôte Delink                 | 60W                                                         | 120W                                                                                                | Non applicable              |
-| Alimentation de charge USB                      | 30W                                                         | 60W                                                                                                 |                  |
+| Alimentation de charge USB                      | 400                                                         | 60W                                                                                                 |                  |
 | Vitesse de bits USB                        | 5 Gbps                                                      | 10 Gbps                                                                                             | 10 Gbps          |
 | Surveiller la prise en charge                     | 2 x 4 @30fps, ou<br>1 x 4k @ 60fps                         | 2 x 4K @ 60fps<br> ou 1 x 4 @120fps                                                                                     | 1 x 4K @ 60fps   |
 | Wake-on-LAN from Connected Standby <sup> 1</sup> | Oui                                                         | Oui                                                                                                 |                  |
@@ -122,15 +122,15 @@ Surface Dock 2 est conçu pour simplifier la gestion informatique, ce qui permet
 
 2. *Licence logicielle requise pour certaines fonctionnalités. Vendu séparément.*
 
-## Gestion simplifiée des appareils
+## <a name="streamlined-device-management"></a>Gestion simplifiée des appareils
 
 Surface a publié des fonctionnalités de gestion simplifiées via Windows Update permettant aux administrateurs informatiques d’utiliser les fonctionnalités de niveau entreprise suivantes :
 
 - **Mises à jour non frictionnables.** Mettez à jour vos docks en mode silencieux et automatiquement, avec Windows Update ou Microsoft Endpoint Configuration Manager (anciennement System Center Configuration Manager - SCCM) ou d’autres outils de déploiement MSI. 
 - **Wake from the network**. Gérer et accéder aux appareils d’entreprise sans dépendre des utilisateurs pour maintenir leur appareil sous tension. Même lorsqu’un appareil connecté est en veille, mise en veille prolongée ou en mode d’arrêt, votre équipe peut se lever du réseau pour le service et la gestion, à l’aide de Endpoint Configuration Manager ou d’autres outils de gestion d’entreprise.
-- **Contrôle IT centralisé.** Contrôler les personnes qui peuvent se connecter à la station d’accueil Surface 2 en allumer et à éteindre les ports. Limiter les appareils hôtes qui peuvent être utilisés avec la station d’accueil Surface 2. Limitez l’accès à la station d’accueil à un seul utilisateur ou configurez les docks afin qu’ils soient accessibles uniquement par des utilisateurs spécifiques de votre équipe ou de toute l’entreprise.
+- **Contrôle IT centralisé.** Contrôler les personnes qui peuvent se connecter à la station d’accueil Surface 2 en allumer et à éteindre les ports. Limiter les appareils hôtes qui peuvent être utilisés avec la station d’accueil Surface 2. Limitez l’accès à la station d’accueil à un seul utilisateur ou configurez les docks afin qu’ils soient accessibles uniquement par des utilisateurs spécifiques de votre équipe ou de l’ensemble de l’entreprise.
 
-## Étapes suivantes
+## <a name="next-steps"></a>Étapes suivantes
 
 - [Ports de station d’accueil Surface 2 sécurisés avec le mode de gestion Surface Enterprise](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/secure-surface-dock-2-ports-with-surface-enterprise-management/ba-p/1418999)
 - [Mode de gestion Surface Enterprise](surface-enterprise-management-mode.md)
