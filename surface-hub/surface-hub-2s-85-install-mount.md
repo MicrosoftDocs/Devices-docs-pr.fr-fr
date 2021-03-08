@@ -1,6 +1,6 @@
 ---
 title: Installer et monter le Surface Hub 2S 85
-description: Découvrez comment installer et monter surface Hub 2S 85.
+description: Découvrir comment installer et monter surface Hub2S 85.
 keywords: séparer les valeurs par des virgules
 ms.prod: surface-hub
 ms.sitesec: library
@@ -13,209 +13,209 @@ ms.date: 03/02/2020
 ms.localizationpriority: Medium
 ms.openlocfilehash: 1fab09ef21dbddbb2b4f292acd716c6e6cbaff7e
 ms.sourcegitcommit: 5c904229a0257297be7f724c264e484d2c4b5168
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 03/04/2021
 ms.locfileid: "11387489"
 ---
-# <a name="install-and-mount-surface-hub-2s-85"></a>Installer et monter le Surface Hub 2S 85»
+# <a name="install-and-mount-surface-hub-2s-85"></a>Installer et monter le Surface Hub 2S85”
 
-Cet article fournit des conseils pour l’installation physique de Microsoft Surface Hub 2S 85 » dans des environnements commerciaux. 
+Cet article fournit des conseils pour l’installation physique de Microsoft Surface Hub 2S 85” dans des environnements commerciaux. 
 
-## <a name="unboxing-video"></a>Vidéo d’unboxing
+## <a name="unboxing-video"></a>Vidéo de déballage
 
-- Avant de commencer, consultez la vidéo Deboxing microsoft Surface Hub 2S 85» et configurer :
+- Avant de commencer, veuillez visionner la vidéo de déballage et de configuration du Microsoft Surface Hub 2S 85":
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWwwgL]
 
-- Une version chinoise de cette vidéo est disponible dans [l’annexe B](#appendix-b-unboxing-video) ci-dessous. 
+- Une version chinoise de cette vidéo est disponible dans l’[Annexe B](#appendix-b-unboxing-video) ci-dessous. 
 
 ## <a name="follow-all-safety-precautions"></a>Suivre toutes les précautions de sécurité 
 
 > [!WARNING]
 > **Gestion et préparation de site**<br>
-> - L’appareil est très lourd. Pour réduire le risque de problèmes personnels, de peine ou d’endommagement de l’appareil en raison de sa taille et de son poids, il est important de maintenir l’appareil vertical.
->- Avant de déplacer l’appareil vers l’emplacement où il sera installé, enquêtez sur le site pour déterminer comment le déplacer en toute sécurité vers l’emplacement où il sera décompressé et monté.
->- Utilisez toujours au moins deux personnes pour déballer et installer.
->- Une fois l’appareil décompressé, il doit être monté immédiatement, afin que le système de montage soit en place avant d’être décompressé. Si vous montez sur un support de déploiement, verrouillez ou bloquez les volants de la barre avant de déballer.
->- Pour éviter les risques de trébucher, conservez la zone d’assembly à l’endroit des matériaux de emballage.
+> - L’appareil est très lourd. Pour réduire le risque de blessures, de décès ou de dommages à l'appareil en raison de sa taille et de son poids, il est important de maintenir l'appareil en position verticale.
+>- Avant de déplacer l’appareil vers l’emplacement où il sera installé, examinez le site pour déterminer comment le déplacer en toute sécurité vers l'emplacement où il sera déballé et monté.
+>- Utilisez toujours au moins deux personnes pour le déballage et l'installation.
+>- Une fois que l'appareil est déballé, il doit être monté immédiatement, le système de montage doit donc être en place avant le déballage. Si vous montez sur un support de déploiement, verrouillez ou bloquez les volants du support avant de déballer.
+>- Pour éviter les risques de trébuchement, ne laissez pas de matériaux d'emballage dans la zone de montage.
 
 > [!IMPORTANT]
 >Avant de poursuivre, examinez les informations de sécurité supplémentaires répertoriées dans [l’Annexe A](#appendix-a-additional-safety-information) ci-dessous.
 
-## <a name="1-remove-outer-packaging-materials"></a>1. Supprimer les matériaux d’empaquetage externes
+## <a name="1-remove-outer-packaging-materials"></a>1. Enlever les matériaux d'emballage extérieur
 
-1. Supprimez et recyclez la couverture externe.
-2. Couper quatre (4) lasses.
-3. Ouvrez et supprimez les six (6) clips de la fin.
-4. Supprimez le capot, puis levez et supprimez les panneaux avant et arrière.
+1. Enlevez et recyclez la couverture extérieure.
+2. Coupez quatre (4) sangles en plastique.
+3. Ouvrez et retirez les six (6) clips des extrémités.
+4. Retirez le capot, puis soulevez et retirez les panneaux avant et arrière.
 
- ![Supprimer l’empaquetage externe](images/hub85mount1a.png) <br>
+ ![Retirez l'emballage externe](images/hub85mount1a.png) <br>
 
-## <a name="2-remove-black-outer-packaging-foam"></a>2. Supprimer l’empaquetage externe noir
+## <a name="2-remove-black-outer-packaging-foam"></a>2. Enlever la mousse noire de l'emballage externe
 
-1. Supprimer les pièces d’un coin noir (4).
-2. Supprimez la prise en charge du centre noir.
+1. Enlevez les morceaux de mousse noire des coins (4).
+2. Enlevez le support central en mousse noire.
 
- ![Supprimer l’empaquetage externe noir](images/hub85mount2a.png) <br>
+ ![Enlevez la mousse noire de l'emballage externe](images/hub85mount2a.png) <br>
 
 > [!Caution]
-> Ne supprimez pas de papier à sable, de bandes ou de matériaux d’empaquetage blancs tant que le Hub 2S n’est pas adjacent au panier ou au montage du mur sur lequel il sera placé.
-D’autres supports de réparation sont fournis dans la petite zone située sous la main de l’arrière-plan du package. Les supports de bordure d’origine ou de remplacement doivent être en place avant le déplacement et en particulier avant de faire pivoter l’appareil et son package de protection.
+> Ne retirez pas de mousse blanche, de cerclage ou de matériaux d'emballage avant que le Hub 2S ne soit adjacent au chariot ou au support mural sur lequel il sera placé.
+Du matériel de cerclage supplémentaire est fourni dans la petite boîte située sous les boutons à vis à main au dos du paquet. Les matériaux de cerclage d'origine ou de remplacement doivent être en place avant le déplacement et surtout avant la rotation de l'appareil et de son emballage de protection
  
 
-## <a name="3-remove-inner-packaging-frame-from-pallet"></a>3. Supprimer le cadre d’empaquetage interne de la palette
+## <a name="3-remove-inner-packaging-frame-from-pallet"></a>3. Retirer le cadre d'emballage interne de la palette
 
-1. Déplacer l’assembly de palette vers un emplacement géographique.
-2. Volant de verrouillage (4).
-3. Glisser l’empaquetage interne hors palette.
+1. Déplacez l'assemblage de palettes vers l'emplacement de l'ascenseur.
+2. Bloquer les freins des roues (4).
+3. Faites glisser l'emballage interne de la palette.
 
- ![Supprimer le cadre d’empaquetage interne de la palette](images/hub85mount3b.png) <br>
+ ![Retirez le cadre d'emballage interne de la palette](images/hub85mount3b.png) <br>
 
-## <a name="4-rotate-packaging-frame-to-fit-elevator"></a>4. Faire pivoter l’image d’empaquetage pour l’ajuster
+## <a name="4-rotate-packaging-frame-to-fit-elevator"></a>4. Faire pivoter l’image d’emballage pour l’ajuster à l'ascenseur
 
-1. Faire pivoter l’image pour l’ajuster
-2. Faire pivoter à l’extrémité biseauté du cadre interne et faire glisser dans la profondeur.
+1. Faites pivoter l’image pour l’ajuster à l'ascenseur
+2. Tournez sur l'extrémité biseautée du cadre interne et glissez dans l'ascenseur.
 
- ![Faire pivoter le cadre d’empaquetage pour l’ajuster](images/hub85mount4a.png) <br>
+ ![Faites pivoter le cadre d'emballage pour l'ajuster à l'ascenseur](images/hub85mount4a.png) <br>
 
 > [!TIP]
-> La palette à molette est adaptée à l’encombrement du cadre interne et peut être utilisée tout au long du processus de remise du site d’installation. L’élément de fin du cadre en forêt interne possède des plaques d’skid.
+> La palette roulante est adaptée à l'empreinte de l'emballage du cadre interne et peut être utilisée tout au long du processus de livraison du site d'installation. La pièce d'extrémité interne du cadre en bois est munie de plaques de protection en nylon.
  
-## <a name="5-remove-from-elevator"></a>5. Supprimer de l’étage
+## <a name="5-remove-from-elevator"></a>5. Retirer de l'ascenseur
 
-1. Glisser hors de l’étage
-2. Volant de verrouillage (x4).
+1. Glissez hors de l'ascenseur
+2. Bloquez les freins des roues (x4).
 
- ![Supprimer de l’étage](images/hub85mount5a.png) <br>
+ ![Retirez de l'ascenseur](images/hub85mount5a.png) <br>
 
 
-## <a name="6-place-surface-hub-85-back-on-pallet"></a>6. Remettre le Surface Hub 85» sur une palette
+## <a name="6-place-surface-hub-85-back-on-pallet"></a>6. Remettre le Surface Hub 85” sur une palette
 
 1. À l’aide d’une extrémité biseauté, faites pivoter vers la palette.
-2. Déverrouiller les volants (x4).
-3. Déplacer le produit vers l’emplacement du mur ou du montage de panier.
+2. Déverrouillez les freins des roues (x4).
+3. Déplacez le produit vers l'emplacement du support mural ou du chariot.
 
- ![Remettre le Surface Hub 85» sur la palette](images/hub85mount6a.png) <br>
+ ![Remettez le Surface Hub 85” sur une palette](images/hub85mount6a.png) <br>
 
-## <a name="7-place-surface-hub-85-on-wall-mount-or-cart"></a>7. Placer le Surface Hub 85» sur le montage ou le panier
+## <a name="7-place-surface-hub-85-on-wall-mount-or-cart"></a>7. Placer le Surface Hub 85” sur le support mural ou le chariot
 
-1. Placez Hub 2S devant le montage ou le panier.
-2. Volant de verrouillage (x4).
-3. Glisser l’empaquetage interne hors palette.
-4. Coupez les 3 anses.
-5. Supprimer le capot.
-6. Supprimez les morceaux blancs.
-7. Supprimez le kit d’accueil.
-8. Supprimez l’élément de fin en le ôtant verticalement.
-9. Supprimez les pièces de fin de forêt par les quatre poignées de main sur la base du forêt.
+1. Placez Hub 2S devant le support mural ou le panier.
+2. Bloquez les freins des roues (x4).
+3. Faites glisser l'emballage interne de la palette.
+4. Coupez les 3 sangles en plastique.
+5. Enlevez le capot.
+6. Enlevez les morceaux de mousse blanche.
+7. Enlevez le kit de bienvenue.
+8. Retirez l'embout en le soulevant verticalement.
+9. Retirez les embouts en bois à l'aide des quatre vis à poignée situées sur la base en bois.
 
-   ![Placer le Surface Hub 85» sur le montage ou le panier](images/hub85mount7a.png) <br>
+   ![Placez le Surface Hub 85" sur un support mural ou sur un chariot](images/hub85mount7a.png) <br>
 
    > [!CAUTION]
-   >  Ne laissez pas Hub 2S 85» sans surveillance. Une personne supplémentaire est nécessaire pour maintenir l’appareil vertical. Une fois les éléments de fin supprimés, au moins une personne doit maintenir le contact avec le Hub 2S jusqu’à ce que l’emplacement sur le montage ou le panier muraux soit terminé.
+   >  Ne laissez pas Hub 2S 85” sans surveillance. Une personne supplémentaire est nécessaire pour maintenir l’appareil vertical. Une fois les embouts retirés, une personne au minimum doit rester en contact avec le Hub 2S jusqu'à ce que le placement sur le support mural ou le chariot soit terminé.
 
-10. Resserez l’élément de fin plywood vers le haut et l’arrière.
-11. Supprimez l’étiquette de pointeur de l’arrière.
-12. Levez le Hub 2S du bac inférieur et placez-le sur un panier ou un montage mur.
+10. Soulevez le bout du contreplaqué et revenez.
+11. Retirez l'étiquette de la bosse à l'arrière.
+12. Soulevez le Hub 2S du plateau inférieur et placez-le sur un chariot ou un support mural.
 
     > [!NOTE]
-    > En suivant les instructions de fabrication du panier ou du montage mur, préparez le système de montage avant de supprimer le Hub 2S de son bac d’empaquetage interne.
+    > En suivant les instructions du fabricant du chariot ou du support mural, préparez le système de montage avant de retirer le Hub 2S de son plateau d'emballage interne.
  
     > [!TIP]
-    > Lorsque vous saisissez le Hub 2S, notez que la main main est cutée dans la partie inférieure. Il faut faire attention à la main supérieure pour ne pas saisir l’appareil où se trouvent les haut-parleurs. Le graphique des extrémités de la couverture de l’appareil fournit un emplacement de haut-parleur général.
+    > En saisissant le Hub 2S, notez les découpes de la main dans la mousse inférieure. Il faut veiller à ce que la main supérieure ne saisisse pas l'appareil où se trouvent les haut-parleurs. Les graphiques aux extrémités du couvercle de l'appareil indiquent l'emplacement général du haut-parleur.
 
-13. Attaches de tension élastiques élastiques (x2).
-14. Supprimer la couverture de l’ôte.
-15. Notez les emplacements de placement des stylets (x2), de l’appareil photo et du cordon d’alimentation.
-16. Attachez les stylets (x2), l’appareil photo et le cordon d’alimentation.
-17. Supprimer les étiquettes de ling (x4).
+13. Desserrez les pinces de tension élastiques (x2).
+14. Enlevez le couvercle en tissu.
+15. Notez les emplacements pour le placement des stylets (x2), de l'appareil photo et du cordon d'alimentation.
+16. Fixez les stylets (x2), l'appareil photo et le cordon d'alimentation.
+17. Enlevez les étiquettes adhésives (x4).
 18. Appuyez sur le bouton d’alimentation en bas à droite. L’installation est maintenant terminée.
 
  
 
  
-## <a name="mounting-surface-hub-2s-85"></a>Montage du Surface Hub 2S 85» 
+## <a name="mounting-surface-hub-2s-85"></a>Montage du Surface Hub 2S 85” 
 
-Le Surface Hub 2S 85» utilise un modèle de montage VESA 600 x 600. Comme illustré dans l’image suivante, Microsoft s’est associé à [Steelcase](https://www.steelcase.com/products/collaboration/steelcase-roam/) pour créer des options de montage compatibles avec la conception unique Surface Hub 2S 85». 
+Le Surface Hub 2S 85” utilise un modèle de montage VESA 600 x 600. Comme illustré dans l’image suivante, Microsoft s’est associé à [Steelcase](https://www.steelcase.com/products/collaboration/steelcase-roam/) pour créer des options de montage compatibles avec la conception unique Surface Hub 2S 85”. 
 
-![Montage de mur en acier](images/sh2-steelcasemount.png) <br>
+![Support mural Steelcase](images/sh2-steelcasemount.png) <br>
 
-### <a name="mounting-dimensions"></a>Dimensions de montage
+### <a name="mounting-dimensions"></a>Dimensions de fixation
 
-Si vous utilisez d’autres options de montage (non -Steelcase), vous aurez besoin d’espacements pour prendre en compte le boîtier de calcul à l’arrière de l’appareil. Des espaceurs et d’autres accessoires certifiés sont disponibles à partir de [Designs Casander.](http://www.salamandercommercial.com/surface-hub-2)
+Si vous utilisez d’autres options de montage (non -Steelcase), vous aurez besoin d’espacements pour prendre en compte le boîtier de calcul à l’arrière de l’appareil. Des espaceurs et d’autres accessoires certifiés sont disponibles à partir de [Salamander Designs](http://www.salamandercommercial.com/surface-hub-2).
 
 
-![Détails des dimensions du Surface Hub 85» pour le montage](images/sh2-85-measure2.png) <br>
+![Détails des dimensions du Surface Hub 85 pour le montage](images/sh2-85-measure2.png) <br>
 
-![Dimensions du Surface Hub 85» pour le montage](images/sh2-85-measure1.png) <br>
+![Dimensions du Surface Hub 85” pour le montage](images/sh2-85-measure1.png) <br>
 
 
 ## <a name="supplemental-strapping-kit"></a>Kit de réparation complémentaire
 
-Le kit attaché à l’arrière-droite, en bas à droite, contient un ensemble supplémentaire de matériels de mise en bande à l’intérieur de l’empaquetage.
+Le kit attaché à l’arrière, en bas à droite, contient un ensemble supplémentaire de matériels de mise en bande à l’intérieur de l’emballage.
 
-## <a name="appendix-a-additional-safety-information"></a>Annexe A : Informations de sécurité supplémentaires
+## <a name="appendix-a-additional-safety-information"></a>Annexe A: Informations de sécurité supplémentaires
 
 > [!WARNING]
-> **Lourde levée d’objet/d’ergonomie**<br>
-> L’appareil est très lourd. Pour réduire le risque de lever des problèmes liés à la santé, à la santé ou aux dommages de l’appareil, nous vous recommandons de lever au moins deux personnes de l’appareil. Il est important d’utiliser une posture de levée appropriée lors de la levée et/ou du déplacement de l’appareil.
-> Utilisez de bonnes pratiques de levée de contrôle, y compris, mais sans s’y limiter, :
-> - Planifiez à l’avance. Assurez-vous que l’équipe de levée accepte le plan.
->- Déterminez si vous pouvez lever l’unité. Est-ce trop lourd ou trop compliqué ?
->- Déterminez si vous avez besoin de la levée d’aide.
->- Vérifiez que votre environnement ne fait pas obstacles et que les surfaces sont insérantes.
->- Levez-vous avec vos pieds, pas votre dos.
->- Vous ne vous délez pas, tout en gardant le dos droit.
+> **Soulèvement d'objets lourds/ergonomiques**<br>
+> L’appareil est très lourd. Pour réduire le risque de blessures, de décès ou de dommages liés au levage, nous recommandons qu'un minimum de deux personnes ou plus soulèvent l'appareil. Il est important d'adopter une bonne posture pour soulever et/ou déplacer l'appareil.
+> Utilisez de bonnes pratiques ergonomiques de levage, y compris, mais sans s'y limiter :
+> - Prévoyez tout à l'avance. Assurez-vous que l'équipe de levage est d'accord sur le plan.
+>- Déterminez si vous pouvez soulever l'unité. Est-ce trop lourd ou trop compliqué ?
+>- Décidez si vous avez besoin d'une aide à la levée.
+>- Vérifiez que votre environnement ne présente pas d'obstructions ou de surfaces glissantes.
+>- Soulevez avec vos jambes, pas avec votre dos.
+>- Pliez les genoux, en gardant le dos droit.
 >- Gardez l’unité près de votre corps.
->- Centrez votre corps sur l’unité. Séparez les pieds de l’épaisseur de l’épaisseur de l’épaisseur de l’épaisseur de l’épaisseur.
->- Levez tout droit vers le haut en douceur.
->- Maintenez votre tenez-vous droit au point . ne pas se tordre lors de la levée ou après le déchargement du chargement ;
+>- Centrez votre corps sur l’unité. Gardez les pieds écartés d'environ la largeur des épaules.
+>- Soulevez en douceur.
+>- Gardez votre torse droit ; ne vous tordez pas en soulevant ou après avoir soulevé la charge
 
 
 > [!WARNING]
->  **Montage approprié**<br> L’appareil est lourd et joint à un panier ou à un montage mur. Pour réduire les risques de mal-être, de mal-être ou d’endommagement de l’appareil : 
->- Suivez toutes les instructions fournies par le fabricant du panier ou du montage mur.
->- Assurez-vous que le système de montage proposé prendra en charge le poids de cet appareil.
+>  **Montage approprié**<br> L'appareil est lourd et se fixe sur un chariot ou un support mural. Pour réduire le risque de blessure, de décès ou de dommages à l'appareil: 
+>- Suivez toutes les instructions fournies par le fabricant du chariot ou du support mural.
+>- Assurez-vous que le système de montage proposé supportera le poids de cet appareil.
 >- Utilisez uniquement le matériel de montage fourni avec le montage du système.
->- Assurez-vous que toutes les garanties sont renforcées en toute sécurité conformément aux instructions du fabricant.
->- Ne relâchez pas l’appareil tant que vous n’êtes pas certain que l’appareil est entièrement en engagement avec les points de pièces jointes système de montage.
->- Microsoft recommande d’utiliser des paniers ou des systèmes de montage de mur conçus pour être utilisés avec votre appareil. Microsoft n’est pas responsable des dommages, des dommages, des dommages ou des dommages causés par l’utilisation d’autres systèmes de montage.
+>- Veillez à ce que toutes les vis soient bien serrées conformément aux instructions du fabricant.
+>- Ne relâchez pas l'appareil tant que vous n'êtes pas certain que l'appareil est entièrement engagé avec les points de fixation du système de montage.
+>- Microsoft recommande d'utiliser des chariots ou des systèmes de fixation murale conçus pour être utilisés avec votre appareil. Microsoft n'est pas responsable des dommages, blessures ou décès causés par l'utilisation d'autres systèmes de montage.
 
 > [!WARNING]
 >  **Risques invisibles dans les murs ou autres surfaces de montage** <br>
-Les murs et d’autres surfaces de montage peuvent contenir des fils électriques, des lignes de bus et d’autres risques ou obstacles invisibles. L’opération couper ou l’exploration dans un danger invisible peut provoquer de graves problèmes personnels.
-Il incombe au programme d’installation de localiser les risques invisibles avant et d’éviter ces risques pendant l’installation. Évaluez l’environnement de montage et assurez-vous toujours qu’il n’y a aucun risque invisible dans le mur ou toute autre surface de montage avant l’exploration et/ou la coupe.
+Les murs et autres surfaces de montage peuvent contenir des fils électriques, des conduites de gaz et d'autres dangers ou obstacles invisibles. Couper ou forer dans un endroit non visible peut causer des blessures graves ou la mort.
+Il incombe à l'installateur de repérer les dangers invisibles avant l'installation et d'éviter ces dangers pendant l'installation. Évaluez l'environnement de montage et assurez-vous toujours qu'il n'y a pas de dangers invisibles dans le mur ou toute autre surface de montage avant de percer et/ou de couper.
 
 > [!WARNING]
-> **Danger de conseil**<br>
-> Pour éviter les risques de mal-être personnel, de peine ou d’endommagement d’un panier/d’un appareil monté en stand lorsqu’il est déplacé :
-> - Utilisez uniquement un panier/un stand compatible avec cet appareil.
->- Suivez toutes les instructions fournies par le fabricant du panier/du stand pour déplacer ou déplacer un appareil monté en mode stand.
->-  Ne bloquez pas ou ne placez pas d’objets lourds à partir de l’appareil ou sur le panier/le stand.
->-  Déconnectez le cordon d’alimentation et d’autres câbles selon les besoins avant de déplacer le panier/l’appareil monté de nouveau. Utilisez la prudence et déplacez-le lentement lors du déplacement du panier/de l’appareil monté en position stand. Suivez les instructions du fabricant du panier/du stand pour déplacer ou déplacer le stand.
->-  Utilisez la prudence lors du transport d’un panier/d’un appareil monté de haut en bas. Ne laissez jamais un panier/appareil monté en position stand sans surveillance sur une ramp ou à proximité.
->-  Seuls les enfants doivent déplacer le panier/l’appareil monté de façon stand.
+> **Danger des tuyaux**<br>
+> Pour éviter tout risque de blessure, de mort ou de dommage à un chariot ou à un dispositif sur pied lorsqu'il est déplacé :
+> - N'utilisez qu'un chariot/support compatible avec cet appareil.
+>- Suivez toutes les instructions fournies par le fabricant du chariot/support pour déplacer ou repositionner un appareil monté sur pied.
+>-  Ne pas suspendre ou placer d'objets lourds à l'appareil ou sur le chariot/support.
+>-  Débranchez le cordon d'alimentation et les autres câbles si nécessaire avant de déplacer le chariot ou l'appareil sur pied. Faites preuve de prudence et déplacez-vous lentement lorsque vous déplacez un chariot ou un appareil sur pied. Suivez les instructions du fabricant du chariot/support pour déplacer ou relocaliser le support.
+>-  Faites preuve de prudence lorsque vous transportez un chariot ou un dispositif sur pied sur des rampes. Ne laissez jamais un chariot ou un appareil sur pied sans surveillance sur une rampe ou à proximité.
+>-  Seuls les adultes doivent déplacer le chariot/appareil sur pied.
 
 > [!CAUTION]
-> **Écran tactile**<br>
-L’écran tactile de l’appareil, comme la plupart des écrans tactiles, est en verre. Le verre peut se rompre si l’appareil est déposé ou en reçoit un impact significatif. Pour réduire le risque de problèmes personnels, évitez de toucher l’écran si le verre est rompu, décomposé ou déchiffré et organisez pour que l’écran soit remplacé.
-Un écran tactile déchiffré ou chéché provoqué par une mauvaise utilisation ou une utilisation abusive de votre appareil n’est pas couvert par la garantie limitée du produit.
+> **Verre d'écran tactile**<br>
+L’écran tactile de l’appareil, comme la plupart des écrans tactiles, est en verre. Le verre peut se briser si l'appareil tombe ou reçoit un choc important. Pour réduire le risque de blessure, évitez de toucher l'écran si le verre est cassé, ébréché ou fissuré et faites remplacer l'écran.
+Un écran tactile fissuré ou ébréché, causé par une mauvaise utilisation ou un abus de votre appareil, n'est pas couvert par la garantie limitée du produit.
 
 > [!WARNING]
 >  **Installation appropriée**<br>
-Pour éviter les risques liés à une installation incorrecte de l’appareil, l’installation doit être effectuée par des personnes qui ont lu et compris l’instruction d’installation avant de commencer le travail. Si vous n’avez pas l’équipement ou l’expertise nécessaires, ou si vous avez des doutes, la surface de montage peut correctement prendre en charge la consultation d’un programme d’installation professionnel.
+Pour éviter les risques liés à une installation incorrecte de l'appareil, l'installation doit être effectuée par des personnes qui ont lu et compris les instructions d'installation avant de commencer le travail. Si vous ne disposez pas de l'équipement ou des compétences nécessaires, ou si vous n'êtes pas sûr que la surface de montage puisse supporter correctement la charge, consultez un installateur professionnel.
 
 
-## <a name="appendix-b-unboxing-video"></a>Annexe B : Vidéo de désa réception
+## <a name="appendix-b-unboxing-video"></a>Annexe B : Vidéo de déballage
 
 
-### <a name="microsoft-surface-hub-2s-85-unboxing-and-set-up-video-chinese"></a>Microsoft Surface Hub 2S 85» Unboxing and Set Up video (Chinese)
+### <a name="microsoft-surface-hub-2s-85-unboxing-and-set-up-video-chinese"></a>vidéo de déballage et de configuration du Microsoft Surface Hub 2S 85" (chinois)
 
 > [!VIDEO https://www.microsoft.com/zh-cn/videoplayer/embed/RE4MRqV]
 
 
-## <a name="more-information"></a>Informations supplémentaires
+## <a name="more-information"></a>Plus d’informations
 
-- [Steelcase Roam Collection](https://www.steelcase.com/products/collaboration/steelcase-roam/)
-- [Designs Demandand](http://www.salamandercommercial.com/surface-hub-2)
+- [Collection d’itinérance Steelcase](https://www.steelcase.com/products/collaboration/steelcase-roam/)
+- [Salamander Designs](http://www.salamandercommercial.com/surface-hub-2)
