@@ -26,5 +26,3 @@ ms.locfileid: "10832412"
 <span data-ttu-id="5928f-115">Les informations sur la confidentialité se trouvent surhttps://privacy.microsoft.com/en-us/</span><span class="sxs-lookup"><span data-stu-id="5928f-115">Privacy information can be found at https://privacy.microsoft.com/en-us/</span></span>
 
 <span data-ttu-id="5928f-116">Microsoft et tout contributeur réservent tout autre droit, qu’il s’agisse de leurs droits d’auteur, de brevet ou de marques commerciales respectives, par implication, par estoppel ou autrement.</span><span class="sxs-lookup"><span data-stu-id="5928f-116">Microsoft and any contributors reserve all other rights, whether under their respective copyrights, patents, or trademarks, whether by implication, estoppel or otherwise.</span></span>
-
-<span>build</span>
