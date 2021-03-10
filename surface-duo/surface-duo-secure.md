@@ -21,7 +21,6 @@ ms.sourcegitcommit: 37e0994e2b8ae62b0352b016b698edcc7ca500fb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 02/10/2021
-test: test
 ms.locfileid: "11326156"
 ---
 # Aperçu de la sécurité de Surface Duo
