@@ -10,18 +10,18 @@ ms.date: 08/28/2017
 ms.reviewer: ''
 manager: laurawi
 localizationpriority: medium
-ms.openlocfilehash: 11768488d2ef7509af6a592b9e4ac945a7e35650
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: f8a2bf8ddb75ca6dd3ff89e16fe0d37e099be29d
+ms.sourcegitcommit: 85f5a2e67b34fe073ec588ed441ebee239ab0ac6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10832958"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "11400735"
 ---
-# Se connecter à Surface Hub avec MicrosoftAuthenticator
+# <a name="sign-in-to-surface-hub-with-microsoft-authenticator"></a>Se connecter à Surface Hub avec MicrosoftAuthenticator
 
 Les membres de votre organisation peuvent se connecter à un Surface Hub sans mot de passe à l’aide de l’application MicrosoftAuthenticator, disponible sur iOS et Android.
 
-## Conditions préalables pour l’organisation
+## <a name="organization-prerequisites"></a>Conditions préalables pour l’organisation
 
 Pour permettre aux utilisateurs de votre organisation de se connecter à Surface Hub avec leurs téléphones et autres appareils au lieu d’un mot de passe, vous devez vous assurer que votre organisation remplit ces conditions préalables: 
 
@@ -33,15 +33,13 @@ Pour permettre aux utilisateurs de votre organisation de se connecter à Surface
 
     ![Options de l'authentification multifacteur](images/mfa-options.png)
 
-- Activez l’hébergement de contenu sur Azure AD services, tel qu’Office, SharePoint, etc. 
+- Activer l’hébergement de contenu sur les services Azure AD tels qu’Office, SharePoint, etc. 
 
 - Le Surface Hub doit exécuter Windows10, version1703 ou ultérieure.
 
 - Le Surface Hub est configuré avec un compte local ou de domaine joint.
 
-Actuellement, vous ne pouvez pas utiliser MicrosoftAuthenticator pour vous connecter à des Surface Hub qui sont joints à AzureAD.
-
-## Conditions préalables des utilisateurs
+## <a name="individual-prerequisites"></a>Conditions préalables des utilisateurs
 
 - Un téléphone Android avec la version 6.0 ou ultérieure, ou un iPhone ou un iPad avec iOS9 ou une version ultérieure 
 
@@ -54,9 +52,7 @@ Actuellement, vous ne pouvez pas utiliser MicrosoftAuthenticator pour vous conne
 
 - Code secret ou écran de verrouillage activé sur votre appareil.
 
-- Une adresse de messagerie SMTP standard (exemple: joe@contoso.com). Les adresses non standard ou les adresses de messagerie de redirection vers un microsite SMTP (exemple: prénom.nom@contoso.com) ne fonctionnent pas actuellement.
-
-## Comment utiliser l’application Microsoft Authenticator
+## <a name="how-to-set-up-the-microsoft-authenticator-app"></a>Comment utiliser l’application Microsoft Authenticator
 
 >[!NOTE]
 >Si le Portail d’entreprise est installé sur votre appareil Android, désinstallez-le avant de configurer MicrosoftAuthenticator. Quand vous aurez configuré l'application, vous pourrez réinstaller le Portail d’entreprise.
@@ -67,7 +63,7 @@ Actuellement, vous ne pouvez pas utiliser MicrosoftAuthenticator pour vous conne
 2. Accédez à **Paramètres** et enregistrez votre appareil.
 3. Revenez à la page des comptes et choisissez **Activer la connexion par téléphone** dans le menu déroulant du compte.
 
-## Comment se connecter à Surface Hub pendant une réunion
+## <a name="how-to-sign-in-to-surface-hub-during-a-meeting"></a>Comment se connecter à Surface Hub pendant une réunion
 
 1. Une fois que vous avez configuré une réunion, accédez au Surface Hub et sélectionnez **Se connecter pour voir vos réunions et vos fichiers**.
 
