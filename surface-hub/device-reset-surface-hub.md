@@ -10,16 +10,16 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 07/31/2019
+ms.date: 03/10/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 73c7cf5a387bf7506bb69f62100171df4d94ad2d
-ms.sourcegitcommit: 25b8d880c6438f94b008f47b4fecc3aa4c473e85
+ms.openlocfilehash: 4b6797a83936b919aa43a7ae9fc8ae4dd720223a
+ms.sourcegitcommit: f0c976664116c45605edf3d56c4f58119a246b93
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "11304817"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "11406622"
 ---
-# Réinitialiser ou récupérer un Surface Hub
+# <a name="reset-or-recover-a-surface-hub"></a>Réinitialiser ou récupérer un Surface Hub
 
 Cet article explique comment réinitialiser ou récupérer un Microsoft Surface Hub.  
 
@@ -33,19 +33,19 @@ Cet article explique comment réinitialiser ou récupérer un Microsoft Surface 
 
 [La récupération d’un Surface Hub à partir du cloud](#recover-a-surface-hub-from-the-cloud) supprime également ces informations. En outre, le Surface Hub télécharge une nouvelle image de système d’exploitation et l’installe. Vous pouvez spécifier si le processus de récupération conserve les autres informations stockées sur le Surface Hub. La même image de système d’exploitation est utilisée par l’outil de récupération [Surface Hub](surface-hub-recovery-tool.md) si vous avez besoin de récupérer un Surface Hub pour lequel aucune de ces options ne peut être utilisée.
 
-## Réinitialiser un Surface Hub
+## <a name="reset-a-surface-hub"></a>Réinitialiser un Surface Hub
 
 Vous de devez peut-être réinitialiser votre Surface Hub pour des raisons telles que les suivantes :
 
 - Vous redéfinissez l’appareil pour un nouvel espace de réunion et souhaitez le reconfigurer.
 - Vous souhaitez modifier la façon dont vous gérez localement l’appareil.
 - Le nom d’utilisateur ou le mot de passe du compte d’appareil ou du compte Administrateur a été perdu.
-- Après avoir installé une mise à jour, les performances de l’appareil diminuent.
+- Une fois que vous avez installé une mise à jour, les performances de l’appareil diminuent.
 
 Pendant le processus de réinitialisation, si un écran vide s’affiche pendant de longues périodes, veuillez patienter et ne pas prendre d’action.
 
 > [!WARNING]
-> Le processus de réinitialisation de l’appareil peut prendre jusqu’à six heures. Ne pas désactiver ou débrancher le Surface Hub tant que le processus n’est pas terminé. Si vous interrompez le processus, l’appareil devient inopérable. L’appareil nécessite un service de garantie pour devenir opérationnel à nouveau.
+> Le processus de réinitialisation de l’appareil peut prendre jusqu’à six heures. Ne dés désactiver ni débrancher le Surface Hub tant que le processus n’est pas terminé. Si vous interrompez le processus, l’appareil devient inopérable. L’appareil nécessite un service de garantie pour devenir opérationnel à nouveau.
 
 1. Sur votre Surface Hub, ouvrez **Paramètres**.
 
@@ -62,11 +62,11 @@ Pendant le processus de réinitialisation, si un écran vide s’affiche pendant
    
    ![Image qui illustre l’option Réinitialiser l’appareil dans l’application Paramètres du Surface Hub.](images/sh-settings-reset-device.png)
 
-   Une fois le processus de réinitialisation terminé, le Surface Hub redémarre le programme [de première](first-run-program-surface-hub.md) opération. Si le processus de réinitialisation rencontre un problème, il rétablit le Surface Hub à l’image du système d’exploitation existant précédemment, puis affiche l’écran d’accueil.
+   Une fois le processus de réinitialisation terminé, le Surface Hub redémarre le programme [de première](first-run-program-surface-hub.md) opération. Si le processus de réinitialisation rencontre un problème, il rétablit le Surface Hub à l’image du système d’exploitation existant, puis affiche l’écran d’accueil.
 
 <span id="cloud-recovery" />
 
-## Récupérer un Surface Hub à partir du cloud
+## <a name="recover-a-surface-hub-from-the-cloud"></a>Récupérer un Surface Hub à partir du cloud
 
 Si, pour une raison quelconque, le Surface Hub devient inutilisable, vous pouvez toujours le récupérer à partir du cloud sans l’aide du Support Microsoft. Le Surface Hub peut télécharger une nouvelle image de système d’exploitation à partir du cloud et utiliser cette image pour réinstaller son système d’exploitation.
 
@@ -78,7 +78,7 @@ Vous de devez peut-être utiliser ce type de processus de récupération dans le
 >[!IMPORTANT]
 >La **récupération à partir du processus cloud** nécessite une connexion câblé qui fournit une connectivité Internet ouverte (pas de proxy ou d’autres invites d’authentification).
 
-### Récupérer un Surface Hub se trouvant dans un état incorrect
+### <a name="recover-a-surface-hub-in-a-bad-state"></a>Récupérer un Surface Hub se trouvant dans un état incorrect
 
 Si le compte d’appareil passe dans un état instable ou si le compte d’administrateur rencontre des problèmes, vous pouvez utiliser l’application Paramètres pour démarrer le processus de récupération cloud. Vous devez utiliser le processus [](#reset-a-surface-hub) de récupération cloud uniquement lorsque le processus de réinitialisation de l’appareil ne corrige pas le problème.
 
@@ -88,7 +88,7 @@ Si le compte d’appareil passe dans un état instable ou si le compte d’admin
 
    ![récupérer à partir du cloud](images/recover-from-the-cloud.png)
 
-### Récupérer un Surface Hub verrouillé
+### <a name="recover-a-locked-surface-hub"></a>Récupérer un Surface Hub verrouillé
 
 À de rares occasions, un SurfaceHub peut rencontrer une erreur lors du nettoyage des données utilisateur et d’application à la fin d’une session. Lorsque cela se produit, l’appareil redémarre automatiquement et tente à nouveau l’opération. Toutefois, si cette opération échoue à plusieurs reprises, l’appareil se verrouille automatiquement pour protéger les données utilisateur. Pour le déverrouiller, vous devez [réinitialiser](#reset-a-surface-hub) l’appareil ou, si cela ne fonctionne pas, le récupérer à partir du cloud.
 
@@ -100,37 +100,32 @@ Si le compte d’appareil passe dans un état instable ou si le compte d’admin
 
 4. Répétez l’étape 3 trois fois ou jusqu’à ce que le Surface Hub affiche le message « Préparation de la réparation automatique ». Une fois ce message affiché, le Surface Hub affiche l’écran Windows RE.
 
-5. Sélectionnez **Options avancées.**
+ 
+5. Sélectionnez **Réinitialiser pour réinstaller Windows**. 
+![réinitialiser pour réinstaller](images/recover-from-cloud.png)
 
-6. Sélectionnez **Récupérer à partir du cloud.** (Si vous le souhaitez, vous pouvez sélectionner **Réinitialiser.** Toutefois, la méthode de récupération à partir **du cloud** est recommandée.)
+8. Sélectionnez **Téléchargement cloud.** 
 
-   ![Récupérer à partir du cloud](images/recover-from-cloud.png)
-7. Si vous êtes invité à entrer la clé Bitlocker, faites l’une des choses suivantes :
+   ![Téléchargement dans le cloud](images/recover-cloud-download.png)
 
-   - Pour conserver les informations protégées par Bitlocker sur le Surface Hub, entrez la clé Bitlocker.
-   - Pour ignorer les informations protégées, **sélectionnez Ignorer ce lecteur**  
+>[!IMPORTANT]
+>Si vous obtenez un message d’erreur indiquant **Impossible de télécharger,** sélectionnez **Annuler** et réessayez.
 
-8. Lorsque vous y êtes invité, sélectionnez **Réinstaller.**
+9. Sélectionnez **Nettoyer entièrement le lecteur.**  
+![ récupérer et nettoyer entièrement le lecteur](images/recover-fully-clean-drive.png)
 
-    ![Réinstaller](images/reinstall.png)
+10. You will be asked **Are you ready to reset this device?**. Sélectionnez **Réinitialiser**. 
+![récupérer et confirmer la réinitialisation](images/recover-confirm-reset.png)
 
-9. Pour repartitioner le disque, sélectionnez **Oui**.
+11. Le téléchargement commence et le processus de récupération indique **la réinitialisation de cet appareil.** 
+![récupération affichée en cours](images/recover-in-progress.png)
 
-   ![Repartitionner](images/repartition.png)
-
-   Tout d’abord, le processus de récupération télécharge l’image du système d’exploitation à partir du cloud.  
-
-   ![téléchargement 97%](images/recover-progress.png)
-
-   Une fois le téléchargement terminé, le processus de récupération restaure le Surface Hub en fonction des options que vous avez sélectionnées.
-   
-
-## Contacter le support
+## <a name="contact-support"></a>Contacter le support
 
 Si vous avez des questions ou avez besoin d’aide, vous pouvez [créer une demande de support.](https://support.microsoft.com/supportforbusiness/productselection)
 
 
-## Rubriques connexes
+## <a name="related-topics"></a>Rubriques associées
 
 [Gérer Microsoft Surface Hub](manage-surface-hub.md)
 
